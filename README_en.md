@@ -1909,6 +1909,8 @@ Thanks to the following contributors for sharing training notes, data processing
 
 * [@Nijikadesu](https://github.com/Nijikadesu): [🔗Breaking Down Project Code in Interactive Notebook Format](https://github.com/jingyaogong/minimind/issues/213)
 
+* [@jaylearnstocode](https://github.com/jaylearnstocode): [🔗Visualization of Model Architecture, Attention Mechanisms, and Training Pipelines](https://llm-visualization-minimind.vercel.app/)
+
 
 Thanks also to the following papers and projects:
 

@@ -1909,6 +1909,8 @@ python llmexport.py --path /path/to/模型路径/ --export mnn --hqq --dst_path 
 
 * [@Nijikadesu](https://github.com/Nijikadesu)：[🔗以交互笔记本方式分解项目代码](https://github.com/jingyaogong/minimind/issues/213)
 
+* [@jaylearnstocode](https://github.com/jaylearnstocode)：[🔗模型结构、注意力机制与训练流程可视化](https://llm-visualization-minimind.vercel.app/)
+
 
 致谢以下优秀的论文与项目：
 
