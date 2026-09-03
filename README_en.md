@@ -1597,6 +1597,15 @@ MiniMind is trained on far less data than the other models listed here, and its 
 | [SmolLM2-135M](https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct) | HuggingFace | 135M | 24.44 / 24.71 | 58.50 / 68.17 / 32.80 / 43.15 / 39.46 |
 | [Aquila-135M](https://huggingface.co/BAAI/Aquila-135M-Instruct) | BAAI | 135M | 25.19 / 25.10 | 54.59 / 67.52 / 34.40 / 41.67 / 39.66 |
 
+> **The resolution of this table**: `lm_eval` reports a `stderr` alongside every metric. It is set mainly by the size of the test set, so the values below apply approximately to every model in the table (they shift slightly with accuracy):
+>
+> | dataset | obqa | ceval | piqa | siqa | arc | hellaswag | cmmlu |
+> |---|---|---|---|---|---|---|---|
+> | samples | 500 | ~1.3k | 1838 | 1954 | 2376 | 10042 | 11582 |
+> | ± stderr | **1.9** | 1.2 | 1.2 | 1.1 | 0.9 | 0.5 | **0.4** |
+>
+> When comparing two models, the standard error of the difference is about `√2` times the single-model value. So a gap smaller than roughly 5 points on obqa, or roughly 3 points on ceval / piqa / siqa, does not separate two models — which is why the ordering of similarly-sized models in this table should not be over-read.
+
 <details>
 <summary><strong>Additional note (source / no contamination / reproduction)</strong></summary>
 
